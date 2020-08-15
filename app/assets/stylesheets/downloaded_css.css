@@ -572,13 +572,13 @@ a.new_article:active,
 
 .article_actions a:hover img {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=60);
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     opacity: 0.6
 }
 
 .article_actions img {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=20);
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
     opacity: 0.2;
     position: relative;
     top: 2px
